@@ -5,10 +5,6 @@ const bcrypt = require("bcryptjs");
 const router = express.Router();
 const Authenticate = require("../middleware/authenticate");
 
-router.get("/", (req, res) => {
-  res.send("hello World from server");
-});
-
 router.post("/register", async (req, res) => {
   const { name, email, phone, work, password, cpassword } = req.body;
   if (!name || !email || !phone || !work || !password || !cpassword) {
