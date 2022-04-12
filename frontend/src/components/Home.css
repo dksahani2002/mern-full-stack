@@ -1,0 +1,61 @@
+.home-page{   
+    height: 600px;
+     
+    
+}
+.home-div{ 
+    display: block;
+    margin: auto;
+    justify-content:end;
+    align-items: center;
+    text-align: center; 
+    height: 80%;
+    width: 100%;
+    box-shadow: 0 0 50px #73CCFB;
+}
+.center {
+    justify-content:end;
+    align-items: center;
+    text-align: center; 
+    color:#40c5b5;
+}
+.home-div p{
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+    justify-content: center;
+    font-size:4rem;
+    height: 20%;
+}
+.home-div h1{
+    height: 20%;
+    font-size:4.3rem;
+    color:#40c5b5;
+}
+.home-div h2{
+    /* font-size:4.3rem; */
+    height: 30%;
+    color:#40c5b5;
+}
+.cards-container{
+    justify-content: center;
+}
+.card1 {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 #40c5b5;
+    transition: 0.3s;
+    padding: 20px 15px;
+    margin: 20px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container2 {
+    /* padding: 2px 16px; */
+  } 
+
+ 
